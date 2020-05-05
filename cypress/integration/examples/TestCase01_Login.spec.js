@@ -1,5 +1,5 @@
 /// <reference types="cypress"/>
-import LoginClss from '../Page Object Model/LoginA'
+import LoginClss from '../Page_Object_Model/LoginA.js'
 describe('Login positivo',()=>{
     //cargamos el fixture con la login data
      before (()=>{
