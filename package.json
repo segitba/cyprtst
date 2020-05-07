@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run --config pageLoadTimeTimeout=100000",
-    "runtest":"npm run test --"
+    "runtest":"npm run test --",
+    "spec": "node_modules\\.bin\\cypress run --spec 'cypress\\integration\\examples\\MyFirstTest.js'",
+    "runspec":"npm run spec --"
   },
   "author": "Sebas",
   "license": "ISC",
