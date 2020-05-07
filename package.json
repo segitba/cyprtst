@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules\\.bin\\cypress run --config pageLoadTimeTimeout=100000",
     "runtest":"npm run test --",
-    "spec": "node_modules\\.bin\\cypress run --spec 'cypress\\integration\\examples\\MyFirstTest.js'",
+    "spec": "node_modules\\.bin\\cypress run --spec 'cypress\\integration\\examples\\TestCase02_addToCart.spec.js'",
     "runspec":"npm run spec --"
   },
   "author": "Sebas",

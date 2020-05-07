@@ -1,7 +1,7 @@
 //TestCase 02 Agregar Producto al carrito:  añadir un producto al carrito y verificar que efectivamente se agregó al mismo.
-import shopcart from '../Page Object Model/cart'
-import LoginUser from '../Page Object Model/LoginA'
-import footerSN_Locators from '../Page Object Model/footerPO'
+import shopcart from '../Page_Object_Model/cart'
+import LoginUser from '../Page_Object_Model/LoginA'
+import footerSN_Locators from '../Page_Object_Model/footerPO'
 describe ('Carrito de compras',()=>{
     before(()=> {
         cy.visit("http://automationpractice.com/index.php")
